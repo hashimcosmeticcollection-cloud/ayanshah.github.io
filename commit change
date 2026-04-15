@@ -1,0 +1,222 @@
+<head>
+<title>Ayan Shah Graphics</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<img src="logo.png" class="logo">
+<h1>Ayan Shah Graphics</h1>
+<p>Professional Graphic Designer</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="portfolio.html">Portfolio</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<section>
+<h2>Welcome to My Website</h2>
+<p>
+I am a professional graphic designer. I create logos, YouTube thumbnails,
+social media posts and branding designs for businesses.
+</p>
+</section>
+
+<section>
+<h2>My Services</h2>
+
+<ul>
+<li>Logo Design</li>
+<li>YouTube Thumbnails</li>
+<li>Social Media Posts</li>
+<li>Business Branding</li>
+</ul>
+
+</section>
+
+<section>
+<h2>Why Choose Me?</h2>
+<p>
+✔ High Quality Design  
+✔ Fast Delivery  
+✔ Affordable Price  
+✔ 100% Satisfaction
+</p>
+</section>
+
+<section>
+<h2>Contact Me</h2>
+<p>Email: ayanshah@email.com</p>
+<p>WhatsApp: 03XXXXXXXXX</p>
+
+<a class="whatsapp" href="https://wa.me/923XXXXXXXXX" target="_blank">
+Chat on WhatsApp
+</a>
+</section>
+
+<footer>
+<p>© 2026 Ayan Shah Graphics | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
+<html>
+<head>
+<title>Contact</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Contact Me</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="portfolio.html">Portfolio</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<section>
+<h2>Hire Me</h2>
+
+<p>Email: ayanshah@email.com</p>
+<p>WhatsApp: 03112464570</p>
+
+<a class="whatsapp" href="https://wa.me/92311246570" target="_blank">
+Chat on WhatsApp
+</a>
+
+</section>
+
+<footer>
+<p>© 2026 Ayan Shah Graphics</p>
+</footer>
+
+</body>
+</html>
+<html>
+<head>
+<title>Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>My Portfolio</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="portfolio.html">Portfolio</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<section>
+<h2>My Work</h2>
+
+<img src="img1.jpg">
+<img src="img2.jpg">
+<img src="img3.jpg">
+
+</section>
+
+<footer>
+<p>© 2026 Ayan Shah Graphics</p>
+</footer>
+
+</body>
+</html>
+body{
+font-family:Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#111;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+.logo{
+width:120px;
+height:120px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:10px;
+}
+
+nav{
+background:#ff6600;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:30px;
+text-align:center;
+animation:fade 1.5s;
+}
+
+img{
+width:250px;
+margin:10px;
+border-radius:10px;
+}
+
+.whatsapp{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:15px 25px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+margin-top:10px;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:20px;
+}
+
+@keyframes fade{
+from{opacity:0; transform:translateY(40px);}
+to{opacity:1; transform:translateY(0);}
+}
+@media (max-width: 768px){
+
+img{
+width:90%;
+}
+
+nav a{
+display:block;
+margin:10px 0;
+}
+
+header{
+padding:15px;
+}
+
+section{
+padding:15px;
+}
+}
